@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JuniorsChat</string>
+    <string name="usuario">User</string>
+    <string name="acerca_de">About ...</string>
+    <string name="direccion">Destination IP address</string>
+    <string name="enviar">Send</string>
+    <string name="iniciar_chat">Start Chat</string>
+    <string name="llamar">To call</string>
+    <string name="mensaje">Message</string>
+    <string name="pin_destino">Destination Pin</string>
+    <string name="pin_nuestro">Pin ours</string>
+    <string name="salir">Get out</string>
+    <string name="explicacion_app">This application is the Final Work of the Master of Telecommunication Engineer, Juniors Antonio Medina Landeón and student of CICE, and it is a P2P chat application, using the UDP communication protocol, in that application the user must enter his name, his Pin, ie a random number between 1024 and 65535 (free ports), the pin of the other user (destination) must also be a random number, it should be noted that the two users of the application must inform each other about which pins , And finally enter the IP address of the mobile device of the destination, I personally think that in this work I apply very important concepts such as Intents, permissions, Threads, Handlers, Adapters, Listview among others ...</string>
+</resources>

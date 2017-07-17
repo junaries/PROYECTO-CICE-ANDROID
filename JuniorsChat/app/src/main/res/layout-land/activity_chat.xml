@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1e9df"
+    tools:context="com.example.juniorsantoniomedinalandeon.juniorschat.ChatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#929e99"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+         <EditText
+             android:id="@+id/et_usuario"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:drawableLeft="@drawable/ic_action_user"
+             android:hint="@string/usuario"
+             android:textColor="#FFFFFF"
+             android:textColorHint="#FFFFFF" />
+
+         <EditText
+             android:id="@+id/et_pinNuestro"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:drawableLeft="@drawable/ic_action_key"
+             android:hint="@string/pin_nuestro"
+             android:textColor="#FFFFFF"
+             android:textColorHint="#FFFFFF" />
+
+         <EditText
+             android:id="@+id/et_pinDestino"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:drawableLeft="@drawable/ic_action_key"
+             android:hint="@string/pin_destino"
+             android:textColor="#FFFFFF"
+             android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/et_ipDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_android"
+            android:hint="@string/direccion"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Iniciar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorNaranja"
+        android:text="@string/iniciar_chat"
+        android:textAllCaps="false"
+        android:textColor="@color/colorTextoButton"
+        android:textSize="18sp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNaranja"
+        android:text="@string/acerca_de"
+        android:onClick="lanzarAcercaDe"
+        android:textAllCaps="false"
+        android:textColor="@color/colorTextoButton"
+        android:textSize="18sp"
+        android:id="@+id/button"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@+id/btn_Iniciar"
+        android:layout_alignBottom="@+id/btn_Iniciar"
+        android:layout_toRightOf="@+id/btn_Iniciar"
+        android:layout_toEndOf="@+id/btn_Iniciar" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNaranja"
+        android:text="@string/llamar"
+        android:onClick="llamar"
+        android:textAllCaps="false"
+        android:textColor="@color/colorTextoButton"
+        android:textSize="18sp"
+        android:id="@+id/button5"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNaranja"
+        android:text="@string/salir"
+        android:onClick="salir"
+        android:textAllCaps="false"
+        android:textColor="@color/colorTextoButton"
+        android:textSize="18sp"
+        android:id="@+id/button4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toRightOf="@+id/button5"
+        android:layout_toEndOf="@+id/button5" />
+</RelativeLayout>

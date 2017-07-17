@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JuniorsChat</string>
+    <string name="usuario">Usuario</string>
+    <string name="pin_nuestro">Pin nuestro</string>
+    <string name="pin_destino">Pin del destino</string>
+    <string name="direccion">Dirección IP del destino</string>
+    <string name="iniciar_chat">Iniciar Chat</string>
+    <string name="acerca_de">Acerca de ...</string>
+    <string name="llamar">LLamar</string>
+    <string name="salir">Salir</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviar">Enviar</string>
+    <string name="explicacion_app">  Esta aplicación es el Trabajo Final de Máster del Ingeniero de Telecomunicación, Juniors Antonio Medina Landeón y alumno de CICE, y se trata de una aplicación de chat P2P, utilizando el protocolo de comunicación UDP, en dicha aplicación el usuario debe introducir su nombre, su pin, es decir un numero aleatorio comprendido entre 1024 y 65535 (puertos libres), el pin del otro usuario(destino) también debe ser un número aleatorio, cabe resaltar que los dos usuarios de la aplicación deben informarse entre ellos sobre cuales son sus pines, y por último debe introducirse la dirección IP del dispositivo móvil del destino, personalmente creo que en este trabajo aplico conceptos muy importantes como los Intents, los permisos, Threads, Handlers, Adapters, Listview entre otros...  </string>
+
+</resources>

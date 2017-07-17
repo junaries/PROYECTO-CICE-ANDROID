@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JuniorsChat</string>
+    <string name="usuario">Benutzer</string>
+    <string name="acerca_de">Über ...</string>
+    <string name="direccion">IP-Zieladresse</string>
+    <string name="enviar">Senden</string>
+    <string name="iniciar_chat">Chat Starten</string>
+    <string name="llamar">Anrufen</string>
+    <string name="mensaje">Nachricht</string>
+    <string name="pin_destino">Pin Ziel</string>
+    <string name="pin_nuestro">Pin unsere</string>
+    <string name="salir">Ausfahrt</string>
+    <string name="explicacion_app">Diese Anwendung ist die letzte Arbeit von Master of Telekommunikation, Ingenieurwesen, Junioren Antonio Medina Landeón und Schüler von ICSE und ist eine Anwendung von P2P-Chat das Kommunikationsprotokoll UDP verwenden, die in dieser Anmeldung der Benutzer Ihren Namen eingeben müssen, Stift, ist eine Zufallszahl zwischen 1024 und 65535 (freier Ports), der Stift des anderen Benutzers (Ziel) muss auch eine Zufallszahl sein, ist es bemerkenswert , dass die beiden Nutzer der Anwendung miteinander über das, was ihre Stifte informieren sollen und schließlich wird die IP-Adresse des Ziel-mobiles eingeführt werden soll, persönlich denkt, dass in diesem Papier wichtige Konzepte gelten wie Intents, Genehmigungen, Threads, Handlers, Adapter, Listview unter anderem ...</string>
+</resources>
